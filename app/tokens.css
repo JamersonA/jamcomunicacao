@@ -1,0 +1,159 @@
+/* Tokens do Contraluz de estúdio. Componentes só leem daqui; o JS lê durações e curvas por getComputedStyle. */
+:root {
+  /* Cor: preto de estúdio, névoa, laranja só no núcleo do feixe, ouro nas linhas, branco quente no pico */
+  --cor-fundo: #090807;
+  --cor-nevoa: #24201b;
+  --cor-luz: #c4702e;
+  --cor-ouro: #e8b85c;
+  --cor-pico: #fff1d2;
+
+  --cor-texto: color-mix(in oklch, var(--cor-pico) 92%, var(--cor-fundo));
+  --cor-texto-suave: color-mix(in oklch, var(--cor-pico) 70%, var(--cor-fundo));
+  --cor-texto-fraco: color-mix(in oklch, var(--cor-pico) 56%, var(--cor-fundo));
+  --cor-ouro-escuro: oklch(from var(--cor-ouro) calc(l - 0.34) calc(c * 0.8) h);
+  --cor-ouro-claro: oklch(from var(--cor-ouro) calc(l + 0.12) calc(c * 0.6) h);
+  --cor-linha: color-mix(in oklch, var(--cor-ouro) 22%, transparent);
+  --cor-linha-forte: color-mix(in oklch, var(--cor-ouro) 55%, transparent);
+  --cor-superficie: color-mix(in oklch, var(--cor-nevoa) 70%, var(--cor-fundo));
+  --cor-veu: color-mix(in oklch, var(--cor-fundo) 72%, transparent);
+  --cor-veu-forte: color-mix(in oklch, var(--cor-fundo) 90%, transparent);
+  --cor-veu-leve: color-mix(in oklch, var(--cor-fundo) 30%, transparent);
+  /* Sombra neutra que separa texto pequeno da luz e das faixas, sem apagar o efeito */
+  --sombra-texto: 0 0 0.3em var(--cor-fundo), 0 0 0.8em var(--cor-fundo), 0 0 1.4em var(--cor-veu);
+  --cor-foco: var(--cor-ouro);
+
+  /* Tipografia */
+  --fonte-display: var(--font-gloock), 'Times New Roman', serif;
+  --fonte-texto: var(--font-schibsted), system-ui, sans-serif;
+  --fonte-mono: var(--font-geist-mono), ui-monospace, monospace;
+
+  --tam-display: clamp(2.75rem, 1.2rem + 5.6vw, 6rem);
+  --tam-titulo: clamp(2.25rem, 1.4rem + 3.4vw, 4.5rem);
+  --tam-subtitulo: clamp(1.5rem, 1.15rem + 1.4vw, 2.25rem);
+  --tam-lead: clamp(1.125rem, 1rem + 0.5vw, 1.375rem);
+  --tam-corpo: 1.0625rem;
+  --tam-pequeno: 0.9375rem;
+  --tam-mono: 0.75rem;
+
+  --entrelinha-display: 1.02;
+  --entrelinha-titulo: 1.08;
+  --entrelinha-corpo: 1.6;
+  --entrelinha-compacta: 1.35;
+  --rastreio-display: -0.015em;
+  --rastreio-mono: 0.18em;
+  --medida-texto: 62ch;
+
+  /* Espaço */
+  --esp-1: 0.25rem;
+  --esp-2: 0.5rem;
+  --esp-3: 0.75rem;
+  --esp-4: 1rem;
+  --esp-5: 1.5rem;
+  --esp-6: 2rem;
+  --esp-7: 3rem;
+  --esp-8: 5rem;
+  --esp-9: 8rem;
+  --margem: clamp(1rem, 4vw, 3.5rem);
+  --secao: clamp(6rem, 4rem + 9vw, 12rem);
+  --largura-max: 90rem;
+
+  /* Forma */
+  --raio-1: 2px;
+  --raio-2: 6px;
+  --raio-3: 14px;
+  --traco: 1px;
+
+  /* Motion: uma linguagem só. Luz com inércia, flashes que decaem, nada linear. */
+  --dur-instantanea: 120ms;
+  --dur-rapida: 220ms;
+  --dur-media: 480ms;
+  --dur-lenta: 900ms;
+  --dur-revelar: 1200ms;
+  --dur-respiro: 7s;
+  --ease-saida: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-entrada-saida: cubic-bezier(0.65, 0, 0.35, 1);
+  --inercia-luz: 0.06; /* fração do caminho que o feixe anda por quadro */
+  --parallax-max: 140; /* px de deslocamento da camada mais funda */
+  --escalonar: 0.08; /* s entre itens de uma entrada */
+
+  /* Luz, glow e vidro */
+  --luz-x: 72%;
+  --luz-y: 28%;
+  --luz-intensidade: 0.42; /* teto do feixe sobre o texto: mantém AA */
+  --glow-desfoque: 90px;
+  --glow-opacidade: 0.55;
+  --vidro-fundo: color-mix(in oklch, var(--cor-nevoa) 52%, transparent);
+  --vidro-borda: color-mix(in oklch, var(--cor-pico) 14%, transparent);
+  --vidro-reflexo: color-mix(in oklch, var(--cor-pico) 9%, transparent);
+  --vidro-desfoque: 22px;
+  --vidro-sombra: 0 30px 60px -30px color-mix(in oklch, black 80%, transparent);
+
+  /* Medidas de componente */
+  --cabecalho-altura: 4.5rem;
+  --tam-botao: 3rem;
+  --tam-icone: 1.125rem;
+  --cartao-destaque: clamp(14.5rem, 58vw, 21rem);
+  --cartao-min: 9.5rem;
+  --marca-min: 8.5rem;
+  --marca-altura: 3.25rem;
+  --foto-largura: 62vw;
+  --foto-altura-movel: 38svh; /* abaixo do cabeçalho, deixando o botão do showreel na primeira tela */
+  --luz-mascara: 15rem; /* raio do trecho dourado do título sob a luz */
+  --glow-tamanho: 46vmax;
+  --tam-mega: clamp(4rem, 1rem + 14vw, 16rem); /* letreiro e número das marcas */
+  --tam-assinatura: clamp(2.75rem, 11.5vw, 13rem); /* "Comunicação" cabe numa linha */
+  --cursor-tamanho: 2.5rem;
+  --cursor-rotulo: 6.5rem;
+  --canto-tamanho: clamp(1.25rem, 3vw, 2.5rem);
+  --cinema-altura: 72svh;
+  --grao-opacidade: 0.06;
+  --vinheta: 0; /* sombra nas bordas da tela (0 a 1); o tom low key aumenta */
+  --perspectiva: 1200px;
+
+  /* Motion lido pelo JS (números puros ou segundos) */
+  --shader-velocidade: 0.35;
+  --esteira-duracao: 38;
+  --esteira-ganho: 3.5;
+  --esteira-inclinacao: 5;
+  --dur-contagem: 1.8s;
+  --cursor-atraso: 0.35;
+  --acender-min: 0.5;
+  --showreel-escala: 0.62;
+
+  /* Camadas */
+  --z-fundo: -1;
+  --z-efeito: 0;
+  --z-conteudo: 2;
+  --z-fixo: 20;
+  --z-dialogo: 50;
+
+  color-scheme: dark;
+}
+
+/* No celular o cabeçalho tem duas linhas (marca e ações, depois o menu): a rolagem até as âncoras
+   desconta essa altura */
+@media (max-width: 47.99em) {
+  :root {
+    --cabecalho-altura: 6.25rem;
+  }
+}
+
+/* ---------- Tons ----------
+   Iluminação low key: a sombra domina e a luz só recorta o essencial. Os tons trocam só a base
+   de cor e a força das luzes; o resto deriva sozinho (texto, linhas, vidro, shaders, cena 3D).
+   O <html> nasce com data-tom="low-key"; ?tom=original troca (componente LowKey). */
+
+/* Low key: mescla o dourado com os tons atuais, um degrau mais escuro e menos brilhoso */
+:root[data-tom='low-key'] {
+  --cor-fundo: #070605;
+  --cor-nevoa: #1b1814;
+  --cor-luz: #a8622c;
+  --cor-ouro: #d4ab5e;
+  --cor-pico: #f3e4c6;
+  --luz-intensidade: 0.32;
+  --glow-opacidade: 0.38;
+  --vidro-fundo: color-mix(in oklch, var(--cor-nevoa) 62%, transparent);
+  --vidro-borda: color-mix(in oklch, var(--cor-pico) 10%, transparent);
+  --vinheta: 0.55;
+}
+

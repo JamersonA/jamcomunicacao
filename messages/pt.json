@@ -1,0 +1,144 @@
+{
+  "meta": {
+    "titulo": "Jam Comunicação | Comunicação institucional em vídeo, Rio de Janeiro",
+    "descricao": "Jamerson Araujo dá rosto e voz a marcas em vídeo institucional. Mais de 500 trabalhos no Brasil e no exterior, com estúdio próprio no Rio de Janeiro.",
+    "ogAlt": "Jamerson Araujo em contraluz no estúdio"
+  },
+  "nav": {
+    "rotulo": "Navegação principal",
+    "marca": "Jam Comunicação",
+    "local": "Rio de Janeiro",
+    "sobre": "Sobre",
+    "trabalhos": "Trabalhos",
+    "marcas": "Marcas",
+    "contato": "Contato",
+    "idioma": "English",
+    "idiomaCurto": "EN",
+    "pular": "Pular para o conteúdo"
+  },
+  "hero": {
+    "titulo": "Eu vendo experiência, não um vídeo qualquer.",
+    "subtitulo": "Comunicação institucional em vídeo. Mais de 500 trabalhos no Brasil e no exterior.",
+    "fotoAlt": "Jamerson Araujo de perfil, recortado pela luz de um refletor no estúdio",
+    "rec": "REC",
+    "ficha": "4K · 24 qps · Rio de Janeiro",
+    "showreel": "Assistir ao showreel",
+    "trabalhos": "Ver trabalhos",
+    "cursor": "Play"
+  },
+  "contatoFixo": "Vamos conversar",
+  "contatoFixoRotulo": "Vamos conversar no WhatsApp",
+  "sobre": {
+    "titulo": "Comunicar é construir pontes.",
+    "linhas": [
+      "Meu mestrado e meu doutorado foram conquistados no subúrbio do Rio de Janeiro. Nas ruas.",
+      "Comunicar não é apenas transmitir uma mensagem. É compreender pessoas, reconhecer contextos, traduzir ideias e construir pontes.",
+      "Eu acredito naquilo que comunico. Acredito em ideias. Apoio projetos. Aposto em pessoas."
+    ],
+    "fecho": "Essa é a comunicação que eu escolhi fazer.",
+    "lerMais": "Ler o texto completo",
+    "completo": [
+      "Sou um educador movido por um profundo amor pelo processo de ensino e aprendizagem, pelo território e, principalmente, pelas pessoas que dão vida a ele.",
+      "Minha formação começou no ensino público, na Universidade do Estado do Rio de Janeiro, e seguiu pela pós-graduação em Gestão Pública, pela Universidade Unopar Anhanguera. Hoje, continuo encarando novos desafios acadêmicos, cursando Tecnologia em Comunicação Institucional e aprofundando uma trajetória que sempre esteve ligada ao conhecimento, à comunicação e ao compromisso com aquilo que pode transformar realidades.",
+      "Mas existe uma parte da minha formação que nenhum diploma consegue traduzir.",
+      "Meu mestrado e meu doutorado foram conquistados no subúrbio do Rio de Janeiro. Nas ruas. Na convivência. No trabalho. Nos encontros. Nas experiências que ensinam sem pedir licença e que nos transformam muito antes de qualquer sala de aula.",
+      "Foi ali que aprendi que comunicar não é apenas transmitir uma mensagem. É compreender pessoas, reconhecer contextos, traduzir ideias e construir pontes.",
+      "É desse lugar que nasce o meu trabalho com comunicação institucional.",
+      "Ao longo dessa trajetória, já são mais de 500 trabalhos entregues, conectando projetos, marcas, profissionais e instituições no Brasil e também no cenário internacional. Cada trabalho representa uma oportunidade de transformar uma ideia em presença, uma intenção em mensagem e uma história em conexão.",
+      "E existe algo que considero ainda mais importante do que simplesmente entregar um trabalho: eu acredito naquilo que comunico.",
+      "Não vendo apenas vídeos, textos ou serviços de comunicação.",
+      "Eu acredito em ideias. Apoio projetos. Aposto em pessoas. E me envolvo com iniciativas que têm potencial para crescer, desenvolver, agregar e deixar alguma coisa melhor do que encontraram.",
+      "Porque, para mim, comunicação não é apenas sobre o que se diz.",
+      "É sobre aquilo que se constrói quando uma boa ideia encontra a mensagem certa, a estratégia certa e alguém disposto a acreditar nela.",
+      "Essa é a comunicação que eu escolhi fazer. E essa é a história que continuo construindo."
+    ],
+    "videoRotulo": "Apresentação do Jam",
+    "videoTocar": "Assistir à apresentação",
+    "cursor": "Play",
+    "numeros": {
+      "trabalhos": "Trabalhos entregues",
+      "marcas": "Marcas atendidas",
+      "estudio": "Estúdio próprio",
+      "estudioValor": "RJ"
+    }
+  },
+  "trabalhos": {
+    "titulo": "Trabalhos",
+    "intro": "Marcas que confiaram o rosto e a voz delas a mim.",
+    "gestoPonteiro": "Passe o cursor para ver, clique para ouvir.",
+    "gestoToque": "Toque para ouvir.",
+    "maisTitulo": "Mais trabalhos",
+    "assistir": "Assistir: {titulo}",
+    "dica": "Arraste ou use as setas",
+    "anterior": "Trabalho anterior",
+    "proximo": "Próximo trabalho",
+    "carrossel": "Trabalhos em destaque",
+    "slide": "{n} de {total}",
+    "verMais": "Ver mais {n} trabalhos",
+    "verMenos": "Ver menos"
+  },
+  "marcas": {
+    "titulo": "Já passaram por aqui",
+    "linha": "No Brasil e no cenário internacional."
+  },
+  "contato": {
+    "titulo": "Sua marca tem uma história. Eu dou rosto e voz a ela.",
+    "texto": "Conte o que você quer comunicar. Eu respondo pessoalmente.",
+    "instagram": "Instagram",
+    "linkedin": "LinkedIn",
+    "whatsapp": "WhatsApp",
+    "whatsappMensagem": "Olá, Jam! Vim pelo seu site e quero conversar sobre um vídeo."
+  },
+  "rodape": {
+    "frase": "Comunicação institucional em vídeo. Rosto e voz para marcas que querem ser lembradas.",
+    "local": "Rio de Janeiro, Brasil · GMT−3",
+    "navegar": "Navegar",
+    "redes": "Redes",
+    "novaAba": "(abre em nova aba)",
+    "cnpj": "CNPJ {cnpj}",
+    "direitos": "© {ano} Jam Comunicação. Todos os direitos reservados.",
+    "topo": "Voltar ao topo",
+    "autoria": "Desenvolvido por"
+  },
+  "letreiro": {
+    "palavras": [
+      "Rosto",
+      "Voz",
+      "Presença",
+      "Confiança",
+      "Experiência"
+    ]
+  },
+  "showreel": {
+    "titulo": "Câmera ligada",
+    "assistir": "Assistir com som",
+    "cursor": "Play"
+  },
+  "cinema": {
+    "rotulo": "Player de vídeo",
+    "fechar": "Fechar o player",
+    "anterior": "Vídeo anterior",
+    "proximo": "Próximo vídeo",
+    "tocar": "Tocar",
+    "pausar": "Pausar",
+    "som": "Ligar o som",
+    "semSom": "Tirar o som",
+    "telaCheia": "Tela cheia",
+    "sairTelaCheia": "Sair da tela cheia",
+    "progresso": "Posição no vídeo",
+    "contador": "{n} de {total}",
+    "previa": "Prévia curta: o vídeo completo ainda está sendo publicado.",
+    "previaCurta": "Prévia curta",
+    "completo": "Assistir completo",
+    "atalhos": "Espaço toca e pausa · setas trocam o vídeo · M tira o som · F tela cheia · Esc fecha"
+  },
+  "movimento": {
+    "pausar": "Pausar animações",
+    "retomar": "Retomar animações"
+  },
+  "tom": {
+    "rotulo": "Tom do site",
+    "lowKey": "Low key",
+    "original": "Original"
+  }
+}

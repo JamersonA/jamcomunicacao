@@ -1,0 +1,144 @@
+{
+  "meta": {
+    "titulo": "Jam Comunicação | Institutional video communication, Rio de Janeiro",
+    "descricao": "Jamerson Araujo gives brands a face and a voice in institutional video. Over 500 projects in Brazil and abroad, from his own studio in Rio de Janeiro.",
+    "ogAlt": "Jamerson Araujo backlit in the studio"
+  },
+  "nav": {
+    "rotulo": "Main navigation",
+    "marca": "Jam Comunicação",
+    "local": "Rio de Janeiro",
+    "sobre": "About",
+    "trabalhos": "Work",
+    "marcas": "Brands",
+    "contato": "Contact",
+    "idioma": "Português",
+    "idiomaCurto": "PT",
+    "pular": "Skip to content"
+  },
+  "hero": {
+    "titulo": "I sell experiences, not just another video.",
+    "subtitulo": "Institutional video communication. Over 500 projects in Brazil and abroad.",
+    "fotoAlt": "Jamerson Araujo in profile, outlined by a studio spotlight",
+    "rec": "REC",
+    "ficha": "4K · 24 fps · Rio de Janeiro",
+    "showreel": "Watch the showreel",
+    "trabalhos": "See the work",
+    "cursor": "Play"
+  },
+  "contatoFixo": "Let's talk",
+  "contatoFixoRotulo": "Let's talk on WhatsApp",
+  "sobre": {
+    "titulo": "Communicating is building bridges.",
+    "linhas": [
+      "I earned my master's and my doctorate in the suburbs of Rio de Janeiro. On the streets.",
+      "Communicating isn't just delivering a message. It's understanding people, reading context, translating ideas and building bridges.",
+      "I believe in what I communicate. I believe in ideas. I back projects. I bet on people."
+    ],
+    "fecho": "This is the kind of communication I chose to do.",
+    "lerMais": "Read the full story",
+    "completo": [
+      "I am an educator driven by a deep love for teaching and learning, for the places we come from and, above all, for the people who bring them to life.",
+      "My education began in public schools, at the Rio de Janeiro State University, and continued with a postgraduate degree in Public Management from Unopar Anhanguera. Today I keep taking on new academic challenges, studying Institutional Communication Technology and deepening a path that has always been tied to knowledge, to communication and to a commitment to whatever can change people's realities.",
+      "But there is a part of my education that no diploma can translate.",
+      "I earned my master's and my doctorate in the suburbs of Rio de Janeiro. On the streets. Living together. Working. Meeting people. In the experiences that teach without asking permission and change us long before any classroom does.",
+      "That is where I learned that communicating isn't just delivering a message. It's understanding people, reading context, translating ideas and building bridges.",
+      "That is where my work in institutional communication comes from.",
+      "Along the way I have delivered more than 500 projects, connecting projects, brands, professionals and institutions in Brazil and internationally. Each one is a chance to turn an idea into presence, an intention into a message and a story into a connection.",
+      "And there is something I value even more than simply delivering the work: I believe in what I communicate.",
+      "I don't just sell videos, copy or communication services.",
+      "I believe in ideas. I back projects. I bet on people. And I get involved with initiatives that have the potential to grow, develop, add value and leave things better than they found them.",
+      "Because, to me, communication isn't only about what is said.",
+      "It's about what gets built when a good idea meets the right message, the right strategy and someone willing to believe in it.",
+      "This is the kind of communication I chose to do. And this is the story I keep building."
+    ],
+    "videoRotulo": "Jam's introduction",
+    "videoTocar": "Watch the introduction",
+    "cursor": "Play",
+    "numeros": {
+      "trabalhos": "Projects delivered",
+      "marcas": "Brands served",
+      "estudio": "Own studio",
+      "estudioValor": "RJ"
+    }
+  },
+  "trabalhos": {
+    "titulo": "Work",
+    "intro": "Brands that trusted me with their face and voice.",
+    "gestoPonteiro": "Hover to preview, click to listen.",
+    "gestoToque": "Tap to listen.",
+    "maisTitulo": "More work",
+    "assistir": "Watch: {titulo}",
+    "dica": "Drag or use the arrows",
+    "anterior": "Previous work",
+    "proximo": "Next work",
+    "carrossel": "Featured work",
+    "slide": "{n} of {total}",
+    "verMais": "See {n} more projects",
+    "verMenos": "See less"
+  },
+  "marcas": {
+    "titulo": "They've been here",
+    "linha": "In Brazil and around the world."
+  },
+  "contato": {
+    "titulo": "Your brand has a story. I give it a face and a voice.",
+    "texto": "Tell me what you want to communicate. I answer personally.",
+    "instagram": "Instagram",
+    "linkedin": "LinkedIn",
+    "whatsapp": "WhatsApp",
+    "whatsappMensagem": "Hi Jam! I found your website and would like to talk about a video."
+  },
+  "rodape": {
+    "frase": "Institutional video communication. A face and a voice for brands that want to be remembered.",
+    "local": "Rio de Janeiro, Brazil · GMT−3",
+    "navegar": "Navigate",
+    "redes": "Social",
+    "novaAba": "(opens in a new tab)",
+    "cnpj": "CNPJ {cnpj}",
+    "direitos": "© {ano} Jam Comunicação. All rights reserved.",
+    "topo": "Back to top",
+    "autoria": "Developed by"
+  },
+  "letreiro": {
+    "palavras": [
+      "Face",
+      "Voice",
+      "Presence",
+      "Trust",
+      "Experience"
+    ]
+  },
+  "showreel": {
+    "titulo": "Camera rolling",
+    "assistir": "Watch with sound",
+    "cursor": "Play"
+  },
+  "cinema": {
+    "rotulo": "Video player",
+    "fechar": "Close the player",
+    "anterior": "Previous video",
+    "proximo": "Next video",
+    "tocar": "Play",
+    "pausar": "Pause",
+    "som": "Turn sound on",
+    "semSom": "Mute",
+    "telaCheia": "Full screen",
+    "sairTelaCheia": "Exit full screen",
+    "progresso": "Video position",
+    "contador": "{n} of {total}",
+    "previa": "Short preview: the full video is still being published.",
+    "previaCurta": "Short preview",
+    "completo": "Watch full video",
+    "atalhos": "Space plays and pauses · arrows switch videos · M mutes · F full screen · Esc closes"
+  },
+  "movimento": {
+    "pausar": "Pause animations",
+    "retomar": "Resume animations"
+  },
+  "tom": {
+    "rotulo": "Site tone",
+    "lowKey": "Low key",
+    "original": "Original"
+  }
+}

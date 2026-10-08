@@ -1,0 +1,30 @@
+# dependências e build (Next.js)
+node_modules/
+.next/
+out/
+build/
+*.tsbuildinfo
+next-env.d.ts
+
+# ambiente
+.env*
+!.env.example
+
+# vercel
+.vercel
+
+# originais dos vídeos (ficam no Drive do Jam)
+assets/videos/
+
+# sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+.impeccable/
+AGENTS.md
+PRODUCT.md
+
+# versões web dos vídeos e pôsteres intermediários (gerados por scripts/comprimir-videos.sh;
+# os vídeos são servidos pelo Worker em cloudflare/jam-videos)
+public/media/
+
